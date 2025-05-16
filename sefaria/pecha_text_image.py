@@ -112,7 +112,7 @@ class SyntheticImageGenerator:
         font_file_name_ref = FONT_PATHS.get(self.font_type, 'he') if lang == "he" else FONT_PATHS.get('en')
 
         
-        # Create base image with RGBA mode to support transparency
+        # Create base image with RGBA mode to support transparency 
         img = Image.new('RGBA', (self.image_width, self.image_height), 
                        color=self.bg_color + (255,))  # Add alpha channel
         d = ImageDraw.Draw(img)

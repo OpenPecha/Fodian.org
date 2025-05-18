@@ -72,8 +72,6 @@ msgid "placeholder_Educated_Dr_Prof"
 msgstr "博士"
 
 #: sefaria/forms.py:61 templates/registration/register.html:49
-#, fuzzy
-#| msgid "placeholder_teacher"
 msgid "placeholder_plan_creator"
 msgstr "教師"
 

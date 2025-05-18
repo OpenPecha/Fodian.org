@@ -13,7 +13,7 @@
 
     <!-- SEO Tags -->
     <meta name="title" content="Fodian - Learn, live and share Buddhist wisdom everyday">
-    <meta name="keywords" content="pecha, Pecha, pecha.org, pecha, དཔེ་ཆ་, Tibetan Buddhism, Buddhist texts, ">
+    <meta name="keywords" content="Fodian, fodian.org, fodian, དཔེ་ཆ་, Tibetan Buddhism, Buddhist texts, ">
     <meta name="description" content="The largest free library of Buddhist texts available to read online in Tibetan, English and Chinese including Sutras, Tantras, Abhidharma, Vinaya, commentaries and more."/>
     <meta name="author" content="fodian.org">
     <meta name="robots" content="index, follow">
@@ -41,7 +41,7 @@
     {% endblock %}
 
     {% block ogimage %}
-        <!-- <meta property="og:title" content="Pecha - Buddhism in your own words" /> -->
+        <!-- <meta property="og:title" content="Fodian - Buddhism in your own words" /> -->
         <meta property="og:description" content="{% block fb_description %}{{ desc|striptags }}{% endblock %}"/>
         <!-- <meta property="og:image" content="https://{{ request.get_host }}/api/img-gen{{ request.path }}?lang={{ request.GET.lang }}&platform=facebook&ven={{ request.GET.ven }}&vhe={{ request.GET.vhe }}" /> -->
         <meta property="og:image" content="https://{{ request.get_host }}/api/img-gen{{ request.path }}?lang={{ request.GET.lang }}{% if request.GET.ven %}&ven={{ request.GET.ven|urlencode  }}{% endif %}{% if request.GET.vhe %}&vhe={{ request.GET.|urlencode  }}{% endif %}" />
@@ -84,8 +84,9 @@
       {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "url": "https://pecha.org",
-        "logo": "https://pecha.org/static/img/fodian_logo.png"
+        "name": "Fodian",
+        "url": "https://fodian.org",
+        "logo": "https://fodian.org/static/img/fodian_logo.png"
       }
       </script>
 

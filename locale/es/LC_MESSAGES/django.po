@@ -116,8 +116,8 @@ msgid "Sefaria Collections"
 msgstr "Sefaria 收藏"
 
 #: reader/views.py:1128
-msgid "Pecha - Buddhism in your own words"
-msgstr "Pecha - 用你自己的话说佛教"
+msgid "Fodian - Buddhism in your own words"
+msgstr "Fodian - 用你自己的话说佛教"
 
 #: reader/views.py:1129
 msgid ""
@@ -1425,12 +1425,12 @@ msgstr "重新登录"
 
 #: templates/registration/login.html:4 templates/registration/login.html:29
 msgid "Log in to Pecha"
-msgstr "登录Pecha"
+msgstr "登录"
 
 #: templates/registration/login.html:6
 msgid ""
 "Log in to your Pecha account to make source sheets, write notes, and follow "
-"other Pecha users."
+"other Fodian users."
 msgstr ""
 
 #: templates/registration/login.html:14

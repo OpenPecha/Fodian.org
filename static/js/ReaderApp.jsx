@@ -511,7 +511,7 @@ class ReaderApp extends Component {
               hist.mode  = "topics";
             break;
           case "community":
-            hist.title = Sefaria._("From the Community: Today on Pecha");
+            hist.title = Sefaria._("From the Community: Today on Fodian");
             hist.url   = "community";
             hist.mode  = "community";
             break;
@@ -521,12 +521,12 @@ class ReaderApp extends Component {
             hist.mode  = "plans";
             break;  
           case "planDetail":
-            hist.title = `${Sefaria._("Practice Plan")} | ${Sefaria._("Pecha")}`;
+            hist.title = `${Sefaria._("Practice Plan")} | ${Sefaria._("Fodian")}`;
             hist.url   = `plans/${state.planId}`;
             hist.mode  = "planDetail";
             break;
           case "dayPlanDetail":
-            hist.title = `${Sefaria._("Practice Plan")} | ${Sefaria._("Pecha")}`;
+            hist.title = `${Sefaria._("Practice Plan")} | ${Sefaria._("Fodian")}`;
             hist.url   = `plans/${state.planId}/progress`;
             
             // Extract and preserve query parameters for multi-panel layout and text references
@@ -540,7 +540,7 @@ class ReaderApp extends Component {
             hist.mode  = "dayPlanDetail";
             break;
           case "profile":
-            hist.title = `${state.profile.full_name} ${Sefaria._("on Pecha")}`;
+            hist.title = `${state.profile.full_name} ${Sefaria._("on Fodian")}`;
             hist.url   = `profile/${state.profile.slug}`;
             hist.mode = "profile";
             break;
@@ -583,8 +583,8 @@ class ReaderApp extends Component {
             hist.mode = "modtools";
             break;
           case "user_stats":
-            hist.title = Sefaria._("Pecha Tracker");
-            hist.url = "pechatracker";
+            hist.title = Sefaria._("Fodian Tracker");
+            hist.url = "fodiantracker";
             hist.mode = "user_stats";
             break;
           case "saved":
@@ -1104,7 +1104,7 @@ toggleSignUpModal(modalContentKind = SignUpModalKind.Default) {
   }
   openURL(href, replace=true, overrideContentLang=false) {
     // Attempts to open `href` in app, return true if successful.
-    href = href.startsWith("/") ? "https://www.pecha.org" + href : href;
+    href = href.startsWith("/") ? "https://www.fodian.org" + href : href;
     let url;
     try {
       url = new URL(href);
@@ -1113,7 +1113,7 @@ toggleSignUpModal(modalContentKind = SignUpModalKind.Default) {
     }
     // Open non-Sefaria urls in new tab/window
     // TODO generalize to any domain of current deploy.
-    if (url.hostname.indexOf("www.pecha.org") === -1) {
+    if (url.hostname.indexOf("www.fodian.org") === -1) {
       window.open(url, '_blank')
       return true;
     }
@@ -1160,7 +1160,7 @@ toggleSignUpModal(modalContentKind = SignUpModalKind.Default) {
     } else if (path === "/calendars") {
       this.showCalendars();
 
-    } else if (path === "/pechatracker") {
+    } else if (path === "/fodiantracker") {
       this.showUserStats();
 
     } else if (path.match(/^\/sheets\/\d+/)) {

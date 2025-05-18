@@ -826,7 +826,7 @@ msgstr "密码重置"
 #: templates/registration/password_reset_done.html:4
 #: templates/registration/password_reset_form.html:5
 msgid "common.name_pecha"
-msgstr "Pecha"
+msgstr "Fodian"
 
 #: templates/registration/password_reset_complete.html:21
 msgid "registration.password_reset_complete.your_new_password_has_been_saved"

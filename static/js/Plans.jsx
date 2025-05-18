@@ -349,7 +349,7 @@ const CompletedPlans = ({ filteredPlans, onBrowseClick }) => {
 
   return (
     <div className="myPlansContainer">
-      <div className="plansGrid">
+      <div className="plansGrid"> 
         {filteredPlans.map(plan => (
           <div key={plan.id} className="planCard">
             <a href={`/plans/${plan.plan_id}/progress`} className="planCardLink">

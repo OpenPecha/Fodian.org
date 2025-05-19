@@ -15,7 +15,7 @@ FONT_PATHS = {
     "fa": "static/fonts/Noto-font/NotoFont-fa.ttf",
     "fr": "static/fonts/Noto-font/NotoFont-fr.ttf",
     "gu": "static/fonts/Noto-font/NotoFont-gu.ttf",
-    "he": "static/fonts/wujin+gangbi.ttf",
+    "he": "static/fonts/Noto-font/NotoFont-zh.ttf",
     "hi": "static/fonts/Noto-font/NotoFont-hi.ttf",
     "hy": "static/fonts/Noto-font/NotoFont-hy.ttf",
     "it": "static/fonts/Noto-font/NotoFont-it.ttf",
@@ -41,7 +41,8 @@ FONT_PATHS = {
     "te": "static/fonts/Noto-font/NotoFont-te.ttf",
     "ur": "static/fonts/Noto-font/NotoFont-ur.ttf",
     "vi": "static/fonts/Noto-font/NotoFont-general.ttf",
-    "zh": "static/fonts/Noto-font/NotoFont-zh.ttf"
+    "zh": "static/fonts/Noto-font/NotoFont-zh.ttf",
+    "lzh": "static/fonts/Noto-font/NotoFont-zh.ttf"
 }
 
 

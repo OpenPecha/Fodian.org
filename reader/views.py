@@ -1686,6 +1686,7 @@ def modify_bulk_text_api(request, title):
 @csrf_exempt
 def texts_api(request, tref):
     oref = Ref.instantiate_ref_with_legacy_parse_fallback(tref)
+    print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", tref, oref)
     tref = oref.url()
     if request.method == "GET":
         uref = oref.url()
@@ -3012,6 +3013,7 @@ def convert_tibetan_text_segment_number(input_string):
     return [tibetan_text, english_numerals]
 
 def get_name_completions(sting_name, limit, ref_only, topic_override=False):
+    print(">>>>>>>>>>>>>>>>>>>>>>>>>>>......",sting_name)
     name = sting_name
     lang = "he" if has_tibetan(name) else "en"        
     completer = library.ref_auto_completer(lang) if ref_only else library.full_auto_completer(lang)
@@ -3021,6 +3023,7 @@ def get_name_completions(sting_name, limit, ref_only, topic_override=False):
    
     
     if lang == "he":
+        print(">>>>>>>>>>>>>>>>>>>>>>>>>>>......",name)
         segment = convert_tibetan_text_segment_number(name)
         if segment[1]:
             enRef = Ref(segment[0])

@@ -73,7 +73,7 @@ msgstr "བསླབ་པ་མཐར་སོན།"
 
 #: sefaria/forms.py:61 templates/registration/register.html:49
 msgid "placeholder_plan_creator"
-msgstr "Plan Creator"
+msgstr "འཆར་གཞི་བཟོ་མཁན།"
 
 #: sefaria/forms.py:62 templates/registration/custom_dropdown.html:14
 #: templates/registration/register.html:50

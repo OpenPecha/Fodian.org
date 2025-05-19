@@ -2,7 +2,7 @@
 {% load i18n cache humanize sefaria_tags static %}
 {% get_static_prefix as STATIC_PREFIX %}
 
-{% block title %}{% "Pecha: a Living Library of Buddhist Texts Online" %}{% endblock %}
+{% block title %}{% "Fodian: a Living Library of Buddhist Texts Online" %}{% endblock %}
 
 {% block description %}{% "The largest free library of Buddhist texts available to read online in Tibetan and English including commentaries and more." %}{% endblock %}
 
@@ -15,7 +15,7 @@
     {
       "@context": "http://schema.org",
       "@type": "WebSite",
-      "name": "{% "Pecha" %}",
+      "name": "{% "Fodian" %}",
       "url": "https://{{ request.META.HTTP_HOST }}",
       "potentialAction": {
         "@type": "SearchAction",
@@ -29,7 +29,7 @@
     {
       "@context": "http://schema.org",
       "@type": "Organization",
-      "name": "{% "Pecha" %}",
+      "name": "{% "Fodian" %}",
       "url": "https://{{ request.META.HTTP_HOST }}",
       "logo": "https://{{ request.META.HTTP_HOST }}{{ STATIC_PREFIX }}img/fodian_logo.png",
       "sameAs": [

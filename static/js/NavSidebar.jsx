@@ -592,16 +592,16 @@ const StayConnected = () => { // TODO: remove? looks like we are not using this
       {/*<NewsletterSignUpForm context="sidebar" />*/}
 
       <a target="_blank" className="button small white appButton iconOnly" href={fbURL}>
-        <img src="/static/icons/facebook.svg" alt={Sefaria._("Pecha on Facebook")} />
+        <img src="/static/icons/facebook.svg" alt={Sefaria._("Fodian on Facebook")} />
       </a>
       <a target="_blank" className="button small white appButton iconOnly" href="https://x.com/pechadotorg">
-        <img src="/static/icons/twitter.svg" alt={Sefaria._("Pecha on Twitter")} />
+        <img src="/static/icons/twitter.svg" alt={Sefaria._("Fodian on Twitter")} />
       </a>
       <a target="_blank" className="button small white appButton iconOnly" href="https://www.instagram.com/pecha_org/">
-        <img src="/static/icons/instagram.svg" alt={Sefaria._("Pecha on Instagram")} />
+        <img src="/static/icons/instagram.svg" alt={Sefaria._("Fodian on Instagram")} />
       </a>
       <a target="_blank" className="button small white appButton iconOnly" href="https://www.youtube.com/channel/UCB1eWJqy97FBViE86l3Hf_g">
-        <img src="/static/icons/youtube.svg" alt={Sefaria._("Pecha on YouTube")} />
+        <img src="/static/icons/youtube.svg" alt={Sefaria._("Fodian on YouTube")} />
       </a>
 
     </Module>

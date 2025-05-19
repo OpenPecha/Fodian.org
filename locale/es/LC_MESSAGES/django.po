@@ -116,8 +116,8 @@ msgid "Sefaria Collections"
 msgstr "Sefaria 收藏"
 
 #: reader/views.py:1128
-msgid "Pecha - Buddhism in your own words"
-msgstr "Pecha - 用你自己的话说佛教"
+msgid "Fodian - Buddhism in your own words"
+msgstr "Fodian - 用你自己的话说佛教"
 
 #: reader/views.py:1129
 msgid ""
@@ -152,13 +152,13 @@ msgid "See your user history on Sefaria"
 msgstr "查看您在 Sefaria 上的用户历史"
 
 #: reader/views.py:1164
-msgid "New Additions to the Pecha Library"
+msgid "New Additions to the Fodian Library"
 msgstr ""
 
 #: reader/views.py:1165
 msgid ""
 "See texts, translations and connections that have been recently added to "
-"Pecha."
+"Fodian."
 msgstr ""
 
 #: reader/views.py:1171
@@ -1220,7 +1220,7 @@ msgstr ""
 #: templates/gdocs_sheet.html:2218
 #, fuzzy
 #| msgid "Source Sheet created on Pecha by "
-msgid "Source Sheet created on Pecha by"
+msgid "Source Sheet created on Fodian by"
 msgstr "在Pecha上创建的来源表，由 "
 
 #: templates/leaderboard.html:4
@@ -1425,12 +1425,12 @@ msgstr "重新登录"
 
 #: templates/registration/login.html:4 templates/registration/login.html:29
 msgid "Log in to Pecha"
-msgstr "登录Pecha"
+msgstr "登录"
 
 #: templates/registration/login.html:6
 msgid ""
 "Log in to your Pecha account to make source sheets, write notes, and follow "
-"other Pecha users."
+"other Fodian users."
 msgstr ""
 
 #: templates/registration/login.html:14

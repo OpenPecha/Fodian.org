@@ -125,7 +125,7 @@ msgstr "Public Collections are required to have at least 3 public sheets."
 
 #: sefaria/model/collection.py:284
 msgid "collection_invitation_email_subject"
-msgstr "invited you to a collection on Pecha"
+msgstr "invited you to a collection on Fodian"
 
 #: sefaria/model/user_profile.py:288
 msgid "email_invalid_message"
@@ -147,7 +147,7 @@ msgstr "You must be logged in to access this api."
 
 #: templates/404.html:4
 msgid "page_not_found_title"
-msgstr "Page Not Found | Pecha"
+msgstr "Page Not Found | Fodian"
 
 #: templates/404.html:11
 msgid "page_not_found_message"
@@ -281,26 +281,26 @@ msgstr "Revision History of"
 
 #: templates/activity.html:9
 msgid "activity.pecha_activity_profile"
-msgstr "Pecha Activity"
+msgstr "Fodian Activity"
 
 #: templates/activity.html:11
 msgid "activity.pecha_activity"
-msgstr "Pecha Activity"
+msgstr "Fodian Activity"
 
 #: templates/activity.html:17
 msgid "activity.revision_history_message"
-msgstr "View the complete revision history of this text on Pecha."
+msgstr "View the complete revision history of this text on Fodian."
 
 #: templates/activity.html:19
 msgid "activity.activity_message"
 msgstr ""
-"View a user's activitiy history on Pecha, including published source sheets, "
+"View a user's activitiy history on Fodian, including published source sheets, "
 "and text translations, edits or additions."
 
 #: templates/activity.html:21
 msgid "activity.view_log_message"
 msgstr ""
-"View the complete log of public activity on Pecha, including published "
+"View the complete log of public activity on Fodian, including published "
 "source sheets, and text translations, edits or additions."
 
 #: templates/activity.html:52
@@ -309,7 +309,7 @@ msgstr "Public Activity"
 
 #: templates/activity.html:56
 msgid "activity.recent_activity"
-msgstr "Recent Activity on Pecha"
+msgstr "Recent Activity on Fodian"
 
 #: templates/activity.html:61
 msgid "activity.all_activity_drop_down"
@@ -357,7 +357,7 @@ msgstr "Admin: Delete a Sheet"
 
 #: templates/delete-sheet.html:4
 msgid "admin.common.delete-sheet.pecha"
-msgstr "Pecha"
+msgstr "Fodian"
 
 #: templates/delete-sheet.html:11
 msgid "admin.delete_sheet"
@@ -377,7 +377,7 @@ msgstr "Delete Sheet"
 
 #: templates/edit_collection.html:9
 msgid "edit_collection.title"
-msgstr "Edit Collection on Pecha"
+msgstr "Edit Collection on Fodian"
 
 #: templates/edit_collection.html:20
 msgid "edit_collection.loading"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: templates/edit_profile.html:5
 msgid "edit_profile.edit_your_profile"
-msgstr "Edit Your Profile on Pecha"
+msgstr "Edit Your Profile on Fodian"
 
 #: templates/edit_profile.html:13
 msgid "edit_profile.header"
@@ -686,12 +686,12 @@ msgstr "This is a notification without a type, it shouldn't exist."
 
 #: templates/people.html:5
 msgid "people.authors_on_pecha"
-msgstr "Authors on Pecha"
+msgstr "Authors on Fodian"
 
 #: templates/people.html:7
 msgid "people.biography_and_informations_about_authors"
 msgstr ""
-"Biographies and information about the authors of Buddhist texts on Pecha, "
+"Biographies and information about the authors of Buddhist texts on Fodian, "
 "together with links to their available texts."
 
 #: templates/people.html:23
@@ -704,12 +704,12 @@ msgstr "People in the Choejuk"
 
 #: templates/profile.html:4
 msgid "profile_title_pecha"
-msgstr "on Pecha"
+msgstr "on Fodian"
 
 #: templates/profile.html:6
 msgid "user_profile_page_desc"
 msgstr ""
-"is on Pecha. Follow to view their public source sheets, notes and "
+"is on Fodian. Follow to view their public source sheets, notes and "
 "translations."
 
 #: templates/profile.html:52
@@ -766,7 +766,7 @@ msgstr "Admin: Delete a User"
 
 #: templates/registration/delete_user_account.html:4
 msgid "common.delete_user_account.pecha"
-msgstr "Pecha"
+msgstr "Fodian"
 
 #: templates/registration/delete_user_account.html:11
 #: templates/registration/delete_user_account.html:17
@@ -782,7 +782,7 @@ msgstr ""
 
 #: templates/registration/logged_out.html:4
 msgid "registration.logged_out.logged_out_pecha"
-msgstr "Logged Out | Pecha"
+msgstr "Logged Out | Fodian"
 
 #: templates/registration/logged_out.html:13
 msgid "registration.logged_out.log_back_in"
@@ -790,13 +790,13 @@ msgstr "Log back in"
 
 #: templates/registration/login.html:5 templates/registration/login.html:42
 msgid "registration.login.login_in_to_pecha"
-msgstr "Log in to Pecha"
+msgstr "Log in to Fodian"
 
 #: templates/registration/login.html:19
 msgid "registration.login.login_in_to_pecha_description"
 msgstr ""
-"Log in to your Pecha account to make source sheets, write notes, and follow "
-"other Pecha users."
+"Log in to your Fodian account to make source sheets, write notes, and follow "
+"other Fodian users."
 
 #: templates/registration/login.html:27
 msgid "registration.login.you_are_already_logged_in_as"
@@ -831,7 +831,7 @@ msgstr "Password Reset"
 #: templates/registration/password_reset_done.html:4
 #: templates/registration/password_reset_form.html:5
 msgid "common.name_pecha"
-msgstr "Pecha"
+msgstr "Fodian"
 
 #: templates/registration/password_reset_complete.html:21
 msgid "registration.password_reset_complete.your_new_password_has_been_saved"
@@ -862,7 +862,7 @@ msgstr "An email has been sent with a link to reset your password."
 msgid "registration.password_reset_email.password_reset_email_message"
 msgstr ""
 "A request has been made to reset the password for this email address on "
-"Pecha.org."
+"fodian.org."
 
 #: templates/registration/password_reset_email.html:6
 #: templates/registration/password_reset_email.txt:5
@@ -885,7 +885,7 @@ msgstr "Forgot Your Password"
 
 #: templates/registration/password_reset_form.html:18
 msgid "registration.password_reset_form.request_a_link_to_change_your_password"
-msgstr "Request a link to change your Pecha password if you've forgotten it."
+msgstr "Request a link to change your Fodian password if you've forgotten it."
 
 #: templates/registration/password_reset_form.html:31
 msgid "registration.password_reset_form.send_reset_link"
@@ -897,7 +897,7 @@ msgstr "Back to login"
 
 #: templates/registration/password_reset_subject.txt:2
 msgid "Pecha.org_Password_Reset"
-msgstr "Pecha.org Password Reset"
+msgstr "fodian.org Password Reset"
 
 #: templates/registration/register.html:5
 msgid "registration.register.create_an_account"
@@ -905,12 +905,12 @@ msgstr "Create an Account"
 
 #: templates/registration/register.html:5
 msgid "common.registration.register.pecha"
-msgstr "Pecha"
+msgstr "Fodian"
 
 #: templates/registration/register.html:19
 msgid "registration.register.create_an_account_description"
 msgstr ""
-"Create an account on Pecha to make source sheets, take notes and follow "
+"Create an account on Fodian to make source sheets, take notes and follow "
 "other people."
 
 #: templates/registration/register.html:26
@@ -928,13 +928,13 @@ msgstr "Already have an account? Log in"
 #: templates/static/ch/about.html:4 templates/static/en/about.html:4
 #: templates/static/he/about.html:4
 msgid "about.about_pecha"
-msgstr "About Pecha"
+msgstr "About Fodian"
 
 #: templates/static/ch/about.html:6 templates/static/en/about.html:6
 #: templates/static/he/about.html:6
 msgid "about.about_pecha_description"
 msgstr ""
-"Pecha is a nonprofit organization dedicated to building the future of "
+"Fodian is a nonprofit organization dedicated to building the future of "
 "Buddhist learning in an open and participatory way."
 
 #~ msgid "developer_team"

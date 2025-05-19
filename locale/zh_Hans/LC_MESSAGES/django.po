@@ -72,8 +72,6 @@ msgid "placeholder_Educated_Dr_Prof"
 msgstr "博士"
 
 #: sefaria/forms.py:61 templates/registration/register.html:49
-#, fuzzy
-#| msgid "placeholder_teacher"
 msgid "placeholder_plan_creator"
 msgstr "教師"
 
@@ -126,7 +124,7 @@ msgstr "公开收藏必须包含至少3个公开表单。"
 
 #: sefaria/model/collection.py:284
 msgid "collection_invitation_email_subject"
-msgstr "邀请您加入Pecha上的一个收藏。"
+msgstr "邀请您加入Fodian上的一个收藏。"
 
 #: sefaria/model/user_profile.py:288
 msgid "email_invalid_message"
@@ -147,7 +145,7 @@ msgstr "您必须登录才能访问此API。"
 
 #: templates/404.html:4
 msgid "page_not_found_title"
-msgstr "页面未找到 | Pecha"
+msgstr "页面未找到 | Fodian"
 
 #: templates/404.html:11
 msgid "page_not_found_message"
@@ -280,25 +278,25 @@ msgstr "修訂歷史"
 
 #: templates/activity.html:9
 msgid "activity.pecha_activity_profile"
-msgstr "PECHA活动"
+msgstr "Fodian活动"
 
 #: templates/activity.html:11
 msgid "activity.pecha_activity"
-msgstr "PECHA活动"
+msgstr "Fodian活动"
 
 #: templates/activity.html:17
 msgid "activity.revision_history_message"
-msgstr "在Pecha上查看本文的完整修订历史记录。"
+msgstr "在Fodian上查看本文的完整修订历史记录。"
 
 #: templates/activity.html:19
 msgid "activity.activity_message"
 msgstr ""
-"查看用户在PECHA上的活动历史记录，包括已发布的源表以及文本翻译，编辑或添加。"
+"查看用户在Fodian上的活动历史记录，包括已发布的源表以及文本翻译，编辑或添加。"
 
 #: templates/activity.html:21
 msgid "activity.view_log_message"
 msgstr ""
-"查看PECHA上的公共活动的完整日志，包括已发表的源表以及文本翻译，编辑或添加。"
+"查看FODIAN上的公共活动的完整日志，包括已发表的源表以及文本翻译，编辑或添加。"
 
 #: templates/activity.html:52
 msgid "activity.public_activity"
@@ -306,7 +304,7 @@ msgstr "公共活动"
 
 #: templates/activity.html:56
 msgid "activity.recent_activity"
-msgstr "最近关于Pecha的活动"
+msgstr "最近关于Fodian的活动"
 
 #: templates/activity.html:61
 msgid "activity.all_activity_drop_down"
@@ -374,7 +372,7 @@ msgstr "删除表"
 
 #: templates/edit_collection.html:9
 msgid "edit_collection.title"
-msgstr "在Pecha上编辑收集"
+msgstr "在Fodian上编辑收集"
 
 #: templates/edit_collection.html:20
 msgid "edit_collection.loading"
@@ -394,7 +392,7 @@ msgstr ""
 
 #: templates/edit_profile.html:5
 msgid "edit_profile.edit_your_profile"
-msgstr "在Pecha上编辑您的个人资料"
+msgstr "在Fodian上编辑您的个人资料"
 
 #: templates/edit_profile.html:13
 msgid "edit_profile.header"
@@ -687,11 +685,11 @@ msgstr "这是没有类型的通知，不应该存在。"
 
 #: templates/people.html:5
 msgid "people.authors_on_pecha"
-msgstr "Pecha的作者"
+msgstr "Fodian的作者"
 
 #: templates/people.html:7
 msgid "people.biography_and_informations_about_authors"
-msgstr "关于Pecha佛教文本的作者的传记和信息，以及指向其可用文本的链接。"
+msgstr "关于Fodian佛教文本的作者的传记和信息，以及指向其可用文本的链接。"
 
 #: templates/people.html:23
 msgid "people.authors"
@@ -707,7 +705,7 @@ msgstr "他是监狱"
 
 #: templates/profile.html:6
 msgid "user_profile_page_desc"
-msgstr "在Pecha上。关注他们的公共资源表，笔记和翻译。"
+msgstr "在Fodian上。关注他们的公共资源表，笔记和翻译。"
 
 #: templates/profile.html:52
 msgid "common.profile.facebook"
@@ -779,7 +777,7 @@ msgstr ""
 
 #: templates/registration/logged_out.html:4
 msgid "registration.logged_out.logged_out_pecha"
-msgstr "登录| Pecha"
+msgstr "登录| Fodian"
 
 #: templates/registration/logged_out.html:13
 msgid "registration.logged_out.log_back_in"
@@ -787,11 +785,11 @@ msgstr "登录"
 
 #: templates/registration/login.html:5 templates/registration/login.html:42
 msgid "registration.login.login_in_to_pecha"
-msgstr "登錄到 Pecha"
+msgstr "登录到 Fodian"
 
 #: templates/registration/login.html:19
 msgid "registration.login.login_in_to_pecha_description"
-msgstr "登录到您的PECHA帐户以制作源表，写笔记并关注其他Pecha用户。"
+msgstr "登录到您的Fodian帐户以制作源表，写笔记并关注其他Fodian用户。"
 
 #: templates/registration/login.html:27
 msgid "registration.login.you_are_already_logged_in_as"
@@ -826,7 +824,7 @@ msgstr "密码重置"
 #: templates/registration/password_reset_done.html:4
 #: templates/registration/password_reset_form.html:5
 msgid "common.name_pecha"
-msgstr "Pecha"
+msgstr "Fodian"
 
 #: templates/registration/password_reset_complete.html:21
 msgid "registration.password_reset_complete.your_new_password_has_been_saved"
@@ -855,7 +853,7 @@ msgstr "已發送一封包含重置密碼連結的電子郵件。"
 
 #: templates/registration/password_reset_email.html:4
 msgid "registration.password_reset_email.password_reset_email_message"
-msgstr "已请求重置此电子邮件地址在 Pecha.org 上的密码。"
+msgstr "已请求重置此电子邮件地址在 Fodian.org 上的密码。"
 
 #: templates/registration/password_reset_email.html:6
 #: templates/registration/password_reset_email.txt:5
@@ -878,7 +876,7 @@ msgstr "忘記密碼"
 
 #: templates/registration/password_reset_form.html:18
 msgid "registration.password_reset_form.request_a_link_to_change_your_password"
-msgstr "如果您忘记了PECHA密码，请求更改您的PECHA密码。"
+msgstr "如果您忘记了Fodian密码，请求更改您的Fodian密码。"
 
 #: templates/registration/password_reset_form.html:31
 msgid "registration.password_reset_form.send_reset_link"
@@ -890,7 +888,7 @@ msgstr "返回登入"
 
 #: templates/registration/password_reset_subject.txt:2
 msgid "Pecha.org_Password_Reset"
-msgstr "Pecha.org 密码重置"
+msgstr "fodian.org 密码重置"
 
 #: templates/registration/register.html:5
 msgid "registration.register.create_an_account"
@@ -902,7 +900,7 @@ msgstr "关闭"
 
 #: templates/registration/register.html:19
 msgid "registration.register.create_an_account_description"
-msgstr "在Pecha上创建一个帐户，以制作源表，记笔记并关注其他人。"
+msgstr "在Fodian上创建一个帐户，以制作源表，记笔记并关注其他人。"
 
 #: templates/registration/register.html:26
 msgid "Sign_Up_Title"
@@ -919,23 +917,23 @@ msgstr "已有帳號？登入"
 #: templates/static/ch/about.html:4 templates/static/en/about.html:4
 #: templates/static/he/about.html:4
 msgid "about.about_pecha"
-msgstr "關於Pecha"
+msgstr "關於Fodian"
 
 #: templates/static/ch/about.html:6 templates/static/en/about.html:6
 #: templates/static/he/about.html:6
 msgid "about.about_pecha_description"
-msgstr "Pecha是一个非营利组织，致力于以公开和参与的方式建立佛教学习的未来。"
+msgstr "Fodian是一个非营利组织，致力于以公开和参与的方式建立佛教学习的未来。"
 
 #~ msgid "developer_team"
 #~ msgstr "开发团队"
 
 #~ msgid "about.about_pecha_detail_description"
 #~ msgstr ""
-#~ "Pecha是專注於佛法數位傳承的非營利機構，我們以開放協作模式，共同打造佛法學"
-#~ "習的全新未來。Pecha正在建構一個免費的佛教文典動態圖書館，整合藏文原典與多"
+#~ "Fodian 是專注於佛法數位傳承的非營利機構，我們以開放協作模式，共同打造佛法學"
+#~ "習的全新未來。Fodian正在建構一個免費的佛教文典動態圖書館，整合藏文原典與多"
 #~ "語言譯文，建立精確的文本關聯與標註系統。我們將古老智慧以現代科技重新詮釋，"
 #~ "打造網頁版、平板與手機的跨平台的互動介面，透過數位化工具，讓更多人能接觸我"
 #~ "們傳統中的經典寶藏。"
 
 #~ msgid "about.about_pecha_title"
-#~ msgstr "關於Pecha"
+#~ msgstr "關於Fodian"

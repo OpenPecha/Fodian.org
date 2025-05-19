@@ -8,7 +8,7 @@ class UserType(models.Model):
         ('Monastic', 'Monastic'),
         ('Teacher', 'Teacher'),
         ('Student', 'Student'),
-        ('Educated* /Dr / Prof', 'Educated* /Dr / Prof'),
+        # ('Educated* /Dr / Prof', 'Educated* /Dr / Prof'),
         ('Plan creator', 'Plan creator'),
         ('regular user', 'regular user'),
         ('Reader', 'Reader')

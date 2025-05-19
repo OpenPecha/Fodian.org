@@ -2195,7 +2195,7 @@ class AddressType(object):
         if lang == "en":
             return str(i)
         elif lang == "he":
-            return int_to_tib(i)
+            return str(i)
 
     @staticmethod
     def to_str_by_address_type(atype, lang, i):
@@ -2427,7 +2427,7 @@ class AddressTalmud(AddressType):
             daf = en_daf
 
         elif lang == "he":
-            daf = int_to_tib(en_daf)
+            daf = en_daf
         return daf
 
     def format_count(self, name, number):
@@ -2569,7 +2569,7 @@ class AddressFolio(AddressType):
 
         # todo
         if lang == "he":
-            daf = int_to_tib(daf_num)
+            daf = daf_num
         return daf
 
     def format_count(self, name, number):

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Sheet from './Sheet';
+import { InterfaceText } from './Misc';
 
 const PlanProgression = ({planId, planData, userPlanId, onCitationClick}) => {
   const [currentDay, setCurrentDay] = useState(1);
@@ -187,7 +188,9 @@ const PlanProgression = ({planId, planData, userPlanId, onCitationClick}) => {
         {/* Sheet Content */}
         <div className={`sheet-content`}> 
           {isLoading ? (
-            <div>Loading day content...</div>
+            <div className="loading" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', width: '100%'}}>
+              <InterfaceText>common.loading</InterfaceText>
+            </div>
           ) : sheetData ? (
               <Sheet
                 id={planData.content[`day ${currentDay}`]?.sheet_id}

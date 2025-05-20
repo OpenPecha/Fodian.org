@@ -106,7 +106,9 @@ const Plans = ({ userType }) => {
   };
 
   if (loading && activeTab === 'all') {
-    return <div className="loading">Loading plans...</div>;
+    return (<div className="loading" style={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', width: '100%'}}>
+                      <InterfaceText>common.loading</InterfaceText>
+                    </div>);;
   }
 
   if (error && activeTab === 'all') {

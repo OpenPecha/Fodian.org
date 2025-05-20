@@ -992,7 +992,7 @@ def texts_category_list(request, cats):
             tocObject, "heShortDesc", '')
         catDefaultDesc = "Read %(categories)s texts online with commentaries and connections." % {
             'categories': cat_string}
-        title = cat_string + " | Sefaria"
+        title = cat_string + " | Fodian"
         desc = catDesc if len(catDesc) else catShortDesc if len(catShortDesc) else catDefaultDesc
 
     props = {

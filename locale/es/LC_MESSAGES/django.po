@@ -78,7 +78,7 @@ msgstr "在线阅读 %(categories)s 文本，附有注释和关联。"
 
 #: reader/views.py:787
 msgid " | Sefaria"
-msgstr " | Sefaria"
+msgstr " | Fodian"
 
 #: reader/views.py:821 reader/views.py:3205
 msgid ""
@@ -381,7 +381,7 @@ msgstr "您必须登录才能访问此 API。"
 
 #: templates/404.html:4
 msgid "Page Not Found | Sefaria"
-msgstr "页面未找到 | Sefaria"
+msgstr "页面未找到 | Fodian"
 
 #: templates/404.html:11
 msgid "Page Not Found"
@@ -1225,7 +1225,7 @@ msgstr "在Pecha上创建的来源表，由 "
 
 #: templates/leaderboard.html:4
 msgid "Top Contributors | Sefaria"
-msgstr "顶级贡献者 | Sefaria"
+msgstr "顶级贡献者 | Fodian"
 
 #: templates/leaderboard.html:6
 msgid ""
@@ -1392,7 +1392,7 @@ msgstr "发送"
 
 #: templates/random.html:7
 msgid "Random Text | Sefaria.org"
-msgstr "随机文本 | Sefaria.org"
+msgstr "随机文本 | fodian.org"
 
 #: templates/random.html:14
 msgid "A Random Text on Sefaria"
@@ -1413,7 +1413,7 @@ msgstr "删除用户"
 
 #: templates/registration/logged_out.html:4
 msgid "Logged Out | Sefaria"
-msgstr "已注销 | Sefaria"
+msgstr "已注销 | fodian"
 
 #: templates/registration/logged_out.html:13
 msgid "You are now logged out."
@@ -2279,7 +2279,7 @@ msgstr "Ramban on Torah - 感谢我们的赞助商"
 
 #: templates/static/remote-learning.html:4
 msgid "Remote Learning | Sefaria"
-msgstr "远程学习 | Sefaria"
+msgstr "远程学习 | fodian"
 
 #: templates/static/remote-learning.html:6
 msgid "Resources for teaching and learning virtually."

@@ -122,7 +122,7 @@ sjs.Init._$ = function() {
 
 sjs.Init.loadView = function () {
 	sjs.cache.save(sjs.current);
-	History.replaceState(parseRef(sjs.current.ref), sjs.current.ref + " | Sefaria.org", null);
+	History.replaceState(parseRef(sjs.current.ref), sjs.current.ref + " | Fodian.org", null);
 
 	var params = getUrlVars();
 	if ("with" in params) {
@@ -1603,7 +1603,7 @@ function get(q) {
 	var versionInfo = sjs.cache.getPreferredTextVersion(q['book']);
 	var versionPath = versionInfo ? "/"+versionInfo['lang']+"/"+versionInfo['version'].replace(/ +/g, "_") : '';
 	var url    = "/" + makeRef(q) + versionPath + paramStr;
-	History.pushState(q, q.ref + " | Sefaria.org", url);
+	History.pushState(q, q.ref + " | Fodian.org", url);
 	sjs.track.open(q.ref);
 }
 
@@ -1735,7 +1735,7 @@ function buildView(data) {
 			q['skipHandler'] = true;
 			var versionPath = "/"+versionInfo['lang']+"/"+versionInfo['version'].replace(/ +/g, "_");
 			var url = window.location.pathname.replace(versionPath, '') + window.location.search;
-			History.replaceState(q, data['ref'] + " | Sefaria.org", url);
+			History.replaceState(q, data['ref'] + " | Fodian.org", url);
 		}
 	}
 	// take data returned from api and build it into the DOM

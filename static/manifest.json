@@ -15,18 +15,18 @@
       "purpose": "any"
     },
     {
-      "src": "https://dev.pecha.org/static/screenshots/fodian_logo.png",
+      "src": "https://fodian.org/static/screenshots/fodian_logo.png",
       "type": "image/png", "sizes": "72x74"
     },
     {
-      "src": "https://dev.pecha.org/static/screenshots/square-icon.png",
+      "src": "https://fodian.org/static/screenshots/square-icon.png",
       "type": "image/png", "sizes": "64x64"
     }
   ],
 
   "screenshots": [
   {
-    "src": "https://dev.pecha.org/static/screenshots/desktop-homepage.png",
+    "src": "https://fodian.org/static/screenshots/desktop-homepage.png",
     "type": "image/png",
     "sizes": "1921x993",
     "form_factor": "wide"
@@ -37,17 +37,17 @@
     "sizes": "1080x1918"
   },
   {
-    "src": "https://dev.pecha.org/static/screenshots/mobile-homepage.jpg",
+    "src": "https://pecha.org/static/screenshots/mobile-homepage.jpg",
     "type": "image/jpg",
     "sizes": "967x2048"
   },
   {
-    "src": "https://dev.pecha.org/static/screenshots/mobile-menus.jpg",
+    "src": "https://pecha.org/static/screenshots/mobile-menus.jpg",
     "type": "image/jpg",
     "sizes": "966x2048"
   },
   {
-    "src": "https://dev.pecha.org/static/screenshots/mobile-sheet.jpg",
+    "src": "https://pecha.org/static/screenshots/mobile-sheet.jpg",
     "type": "image/jpg",
     "sizes": "968x2048"
   }

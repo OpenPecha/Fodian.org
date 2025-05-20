@@ -100,10 +100,7 @@ const AboutSefaria = ({ hideTitle }) => (
     <div className="hide-on-mobile">
     <InterfaceText>side_nav.about_pecha_description</InterfaceText>
     <a href="/about" className="inTextLink">
-      <InterfaceText>
-        <EnglishText>Learn More ›</EnglishText>
-        <HebrewText> མུ་མཐུད་གཟིགས། ›</HebrewText>
-      </InterfaceText>
+      <InterfaceText>common.learn_more</InterfaceText>
     </a>
     </div>
   </Module>

@@ -5,8 +5,8 @@ import Sefaria from './sefaria'
 import LanguagesJson from './localizationLanguage/combineSring'
 
 const langs = {
-    hebrew: "zh",
-    chinese: "bo",
+    hebrew: "bo",
+    chinese: "zh",
     english: "en"
 }
 

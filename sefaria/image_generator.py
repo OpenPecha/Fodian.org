@@ -184,7 +184,7 @@ def make_img_http_response(text, category, ref_str, lang, version_lang, platform
         print("Error generating imagee")
         height = platforms[platform]["height"]
         width = platforms[platform]["width"]
-        img = Image.new('RGBA', (width, height), color="#b5343c")
+        img = Image.new('RGBA', (width, height), color="#C39F48")
         logo = Image.open("static/img/fodian.png")
         logo.thumbnail((400, 400))
         logo_padded = Image.new('RGBA', (width, height))

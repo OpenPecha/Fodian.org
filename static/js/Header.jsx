@@ -684,9 +684,9 @@ const ProfilePicMenu = ({len, url, name}) => {
               <hr className="interfaceLinks-hr"/>
               <hr className="interfaceLinks-hr"/>
               <div className="interfaceLinks-options">
-                  <a className={`interfaceLinks-option int-bi int-he ${(Sefaria.interfaceLang == 'hebrew') ? 'active':''}`} href={`/interface/hebrew?next=${getCurrentPage()}`}>བོད་ཡིག</a>
+                  <a className={`interfaceLinks-option int-bi int-he ${(Sefaria.interfaceLang == 'hebrew') ? 'active':''}`} href={`/interface/hebrew?next=${getCurrentPage()}`}>中文</a>
                   <a className={`interfaceLinks-option int-bi int-en ${(Sefaria.interfaceLang == 'english') ? 'active' : ''}`} href={`/interface/english?next=${getCurrentPage()}`}>English</a>
-                  <a className={`interfaceLinks-option int-bi int-zh ${(Sefaria.interfaceLang == 'chinese') ? 'active' : ''}`} href={`/interface/chinese?next=${getCurrentPage()}`}>中文</a>
+                  <a className={`interfaceLinks-option int-bi int-zh ${(Sefaria.interfaceLang == 'chinese') ? 'active' : ''}`} href={`/interface/chinese?next=${getCurrentPage()}`}>བོད་ཡིག</a>
 
               </div>
             </div>

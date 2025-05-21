@@ -679,9 +679,9 @@ const ProfilePicMenu = ({len, url, name}) => {
               <hr className="interfaceLinks-hr"/>
               <hr className="interfaceLinks-hr"/>
               <div className="interfaceLinks-options">
+                  <a className={`interfaceLinks-option int-bi int-zh ${(Sefaria.interfaceLang == 'chinese') ? 'active':''}`} href={`/interface/chinese?next=${getCurrentPage()}`}>中文</a>
                   <a className={`interfaceLinks-option int-bi int-he ${(Sefaria.interfaceLang == 'hebrew') ? 'active':''}`} href={`/interface/hebrew?next=${getCurrentPage()}`}>བོད་ཡིག</a>
                   <a className={`interfaceLinks-option int-bi int-en ${(Sefaria.interfaceLang == 'english') ? 'active' : ''}`} href={`/interface/english?next=${getCurrentPage()}`}>English</a>
-                  <a className={`interfaceLinks-option int-bi int-zh ${(Sefaria.interfaceLang == 'chinese') ? 'active' : ''}`} href={`/interface/chinese?next=${getCurrentPage()}`}>中文</a>
 
               </div>
             </div>
@@ -700,28 +700,14 @@ const ProfilePicMenu = ({len, url, name}) => {
 const MobileInterfaceLanguageToggle = () => {
   const currentURL = encodeURIComponent(Sefaria.util.currentPath());
 
-  // const links = Sefaria.interfaceLang == "hebrew" ?
-  //   <>
-  //     <a href={"/interface/hebrew?next=" + currentURL} className="lang-font">བོད་ཡིག</a>
-  //     <span className="separator">•</span>
-  //     <a href={"/interface/english?next=" + currentURL} className="lang-font inactive">English</a>
-  //   </>
-  //   :
-  //   <>
-  //     <a href={"/interface/english?next=" + currentURL} className="lang-font">English</a>
-  //     <span className="separator">•</span>
-  //     <a href={"/interface/hebrew?next=" + currentURL} className="lang-font inactive">བོད་ཡིག</a>
-  //   </>;
-
   return (
     <div className="mobileInterfaceLanguageToggle">
       <img src="/static/icons/globe-wire.svg" />
+      <a className={`interfaceLinks-option int-bi int-zh ${(Sefaria.interfaceLang == 'chinese') ? 'active':''}`} href={`/interface/chinese?next=${currentURL}`}>中文</a>
+      <span className="separator">•</span>
       <a className={`interfaceLinks-option int-bi int-he ${(Sefaria.interfaceLang == 'hebrew') ? 'active':''}`} href={`/interface/hebrew?next=${currentURL}`}>བོད་ཡིག</a>
       <span className="separator">•</span>
       <a className={`interfaceLinks-option int-bi int-en ${(Sefaria.interfaceLang == 'english') ? 'active' : ''}`} href={`/interface/english?next=${currentURL}`}>English</a>
-      <span className="separator">•</span>
-      <a className={`interfaceLinks-option int-bi int-zh ${(Sefaria.interfaceLang == 'chinese') ? 'active' : ''}`} href={`/interface/chinese?next=${currentURL}`}>中文</a>
-
     </div>
   );
 };

@@ -16724,6 +16724,8 @@ span.ref-link-color-3 {
     .planDetail {
       width: 100%;
       margin: 5px;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
     }
   
     .searchBarWrapper {

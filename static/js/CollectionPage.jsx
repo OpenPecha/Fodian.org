@@ -323,7 +323,7 @@ const CollectionAbout = ({collection, isAdmin, toggleLanguage}) => (
         <ContentText text={{en: collection.toc.title, he: collection.toc.heTitle}} />
       </h1>
       { isAdmin ? <EditCollectionButton slug={collection.slug} /> : null }
-      { Sefaria.multiPanel && Sefaria.interfaceLang !== "hebrew" ? <LanguageToggleButton toggleLanguage={toggleLanguage} /> : null }
+      { Sefaria.multiPanel ? <LanguageToggleButton toggleLanguage={toggleLanguage} /> : null }
     </div>
     : 
     <div className="navTitle">

@@ -229,7 +229,7 @@ class BookPage extends Component {
       fullBookPage: this.isBookToc(),
       narrowPanel: this.props.narrowPanel,
       compare: this.props.compare,
-      noLangToggleInHebrew: Sefaria.interfaceLang === 'hebrew'
+      noLangToggleInHebrew: false
     });
 
     var hasTranslation = false;

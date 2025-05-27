@@ -314,7 +314,7 @@ class SheetMetadata extends Component {
       sheetPage: 1,
       readerNavMenu:1,
       narrowPanel: this.props.narrowPanel,
-      noLangToggleInHebrew: this.props.interfaceLang == 'hebrew',
+      noLangToggleInHebrew: false,
       "sans-serif": 1,
     });
 

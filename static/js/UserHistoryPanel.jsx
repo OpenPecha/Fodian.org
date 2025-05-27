@@ -45,7 +45,7 @@ const UserHistoryPanel = ({menuOpen, toggleLanguage, openDisplaySettings, openNa
   ];
 
   const footer = compare ? null : <Footer />;
-  const navMenuClasses = classNames({readerNavMenu: 1, compare, noLangToggleInHebrew: 1});
+  const navMenuClasses = classNames({readerNavMenu: 1, compare, noLangToggleInHebrew: false});
 
   return (
     <div className={navMenuClasses}>
@@ -54,7 +54,7 @@ const UserHistoryPanel = ({menuOpen, toggleLanguage, openDisplaySettings, openNa
           <div className="contentInner">
             <div className="navTitle sans-serif-in-hebrew">
               <h1>{ title }</h1>
-              {Sefaria.interfaceLang !== "hebrew" && Sefaria._siteSettings.TORAH_SPECIFIC ?
+              {Sefaria._siteSettings.TORAH_SPECIFIC ?
               <LanguageToggleButton toggleLanguage={toggleLanguage} /> : null}
             </div>
             <UserHistoryList

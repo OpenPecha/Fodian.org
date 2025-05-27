@@ -83,7 +83,7 @@ const TextsPage = ({ categories, settings, setCategories, onCompareBack, openSea
   const dedication = Sefaria._siteSettings.TORAH_SPECIFIC && !compare ? <Dedication /> : null;
 
   // Moved LanguageToggleButton here, below dedication
-  const languageToggle = multiPanel && Sefaria.interfaceLang !== "hebrew" && Sefaria._siteSettings.TORAH_SPECIFIC && !compare ?
+  const languageToggle = multiPanel && Sefaria._siteSettings.TORAH_SPECIFIC && !compare ?
     <div className="language-toggle-box">
       <LanguageToggleButton toggleLanguage={toggleLanguage} />
     </div> : null;
@@ -102,7 +102,7 @@ const TextsPage = ({ categories, settings, setCategories, onCompareBack, openSea
   ];
 
   const footer = compare ? null : <Footer />;
-  const classes = classNames({ readerNavMenu: 1, compare: compare, noLangToggleInHebrew: 1 });
+  const classes = classNames({ readerNavMenu: 1, compare: compare, noLangToggleInHebrew: false });
 
   return (
     <div className={classes} key="0">

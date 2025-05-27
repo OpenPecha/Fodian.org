@@ -61,7 +61,6 @@ class ReaderPanel extends Component {
     this.readerContentRef = React.createRef();
   }
   componentDidMount() {
-    console.log(this.state.settings.language)
     if (this.state.settings.language === "bilingual") {
       this.setOption("language", "hebrew");
     }
@@ -126,7 +125,7 @@ class ReaderPanel extends Component {
 
     } else if (mode === "Connections" || !!menuOpen){
       // Always Hebrew for Hebrew interface, treat bilingual as English for English interface
-      contentLangOverride = (Sefaria.interfaceLang === "hebrew") ? "hebrew" : ((originalLanguage === "bilingual") ? "english" : originalLanguage);
+      contentLangOverride = (Sefaria.interfaceLang === "hebrew") ? originalLanguage : ((originalLanguage === "bilingual") ? "english" : originalLanguage);
 
     }
     return contentLangOverride;
@@ -454,7 +453,6 @@ class ReaderPanel extends Component {
     });
   }
   toggleLanguage() {
-    console.log(this.state.settings.language);
     if (this.state.settings.language === "hebrew") {
       this.setOption("language", "english");
       if (Sefaria.site) { Sefaria.track.event("Reader", "Change Language", "english");}

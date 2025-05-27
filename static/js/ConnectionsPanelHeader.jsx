@@ -101,7 +101,7 @@ class ConnectionsPanelHeader extends Component {
       return (<div className="connectionsPanelHeader">
                 {title}
                 <div className="rightButtons">
-                  {Sefaria.interfaceLang !== "hebrew" && Sefaria._siteSettings.TORAH_SPECIFIC ?
+                  {Sefaria._siteSettings.TORAH_SPECIFIC ?
                     <LanguageToggleButton toggleLanguage={this.props.toggleLanguage} url={langUrl} />
                     : null }
                   <CloseButton icon="circledX" onClick={this.props.closePanel} url={closeUrl} />

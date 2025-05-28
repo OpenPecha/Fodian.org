@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { InterfaceText } from './Misc';
+import { InterfaceText, Pagination } from './Misc';
 import PlanDetail from './PlanDetail';
 import PlanProgression from './PlanProgression';
 
@@ -20,23 +20,38 @@ const Plans = ({ userType }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [activeTab, setActiveTab] = useState('all'); // 'all', 'my', 'completed'
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const [pageSize] = useState(10); // Number of plans per page
 
   // Fetch plans from API
   useEffect(() => {
-    fetchAllPlans();
+    fetchAllPlans(currentPage);
     fetchUserPlans();
     // fetchCompletedPlans();
-  }, []);
+  }, [currentPage]);
+  
+  // Handle page change
+  const handlePageChange = (newPage) => {
+    setCurrentPage(newPage);
+    window.scrollTo(0, 0); // Scroll to top when changing pages
+  };
 
-  const fetchAllPlans = async () => {
+  const fetchAllPlans = async (page = 1) => {
     try {
       setLoading(true);
-      const response = await fetch('/api/plans');
+      const response = await fetch(`/api/plans?page=${page}&page_size=${pageSize}`);
       if (!response.ok) {
         throw new Error('Failed to fetch plans');
       }
       const data = await response.json();
       setPlans(data.plans);
+      
+      // Set pagination data if available
+      if (data.pagination) {
+        setCurrentPage(data.pagination.page);
+        setTotalPages(data.pagination.total_pages);
+      }
     } catch (err) {
       setError(err.message);
     } finally {
@@ -193,6 +208,17 @@ const Plans = ({ userType }) => {
                     {activeTab === 'all' && <AllPlans filteredPlans={filteredPlans} />}
                     {activeTab === 'my' && <MyPlans filteredPlans={filteredPlans} onBrowseClick={() => handleTabChange('all')} />}
                     {activeTab === 'completed' && <CompletedPlans filteredPlans={filteredPlans} onBrowseClick={() => handleTabChange('all')} />}
+                    
+                    {/* Pagination - only show for 'all' tab when there are multiple pages */}
+                    {activeTab === 'all' && totalPages > 1 && (
+                      <div className="plans-pagination-container">
+                        <Pagination 
+                          currentPage={currentPage} 
+                          totalPages={totalPages} 
+                          onPageChange={handlePageChange} 
+                        />
+                      </div>
+                    )}
                   </div>
           </div>
         </div>

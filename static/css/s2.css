@@ -170,7 +170,7 @@ a, a:hover {
 @font-face {
     /*Chinese | ZenOldMincho-Regular*/
     font-family: 'ZenOldMincho-Regular';
-    src: url('/static/fonts/ZenOldMincho-Regular.ttf');
+    src: url('/static/fonts/ZenOldMincho-Regular.woff');
     unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+2CEB0-2EBEF, U+3000-303F, U+FF00-FFEF;
 }
 
@@ -16316,6 +16316,7 @@ span.ref-link-color-3 {
   
   .planDetailHeader {
     display: flex;
+    margin: 20px;
     gap: 30px;
     margin-bottom: 40px;
   }
@@ -16407,6 +16408,7 @@ span.ref-link-color-3 {
   .planDetailContent {
     border-top: 1px solid #eee;
     padding-top: 30px;
+    margin: 30px;
   }
   
   .planDetailContent h2 {
@@ -16430,7 +16432,10 @@ span.ref-link-color-3 {
     }
   
     .searchBarWrapper {
-      max-width: 100%;
+      width: 100%;
+      margin: 0 auto;
+      gap: 2px;  /* Increased gap between search and button */
+      padding:5px;  /* Added horizontal padding */
     }
   
     .searchInput {
@@ -16715,7 +16720,20 @@ span.ref-link-color-3 {
     .content-wrapper {
       flex-direction: column;
     }
+
+    .planDetail {
+      width: 100%;
+      margin: 5px;
+      overflow-y: scroll;
+      scroll-behavior: smooth;
+    }
   
+    .searchBarWrapper {
+        width: 100%;
+        margin: 5px;
+
+    }
+
     .plan-navigation {
       width: 100%;
       border-right: none;
@@ -17342,6 +17360,7 @@ span.ref-link-color-3 {
   
   .planTab {
     padding: 12px 24px;
+    white-space: nowrap;
     font-size: 16px;
     font-weight: 500;
     color: #666;

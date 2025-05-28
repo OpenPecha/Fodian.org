@@ -64,7 +64,7 @@ const TextCategoryPage = ({category, categories, setCategories, toggleLanguage,
             </h1>
         </CategoryHeader>
       {categoryToggle}
-      {multiPanel && Sefaria.interfaceLang !== "hebrew"  && Sefaria._siteSettings.TORAH_SPECIFIC ? 
+      {multiPanel && Sefaria._siteSettings.TORAH_SPECIFIC ? 
       <LanguageToggleButton toggleLanguage={toggleLanguage} /> : null }
     </div>;
 
@@ -78,7 +78,7 @@ const TextCategoryPage = ({category, categories, setCategories, toggleLanguage,
   ) : null;
 
   const footer         = compare ? null : <Footer />;
-  const navMenuClasses = classNames({readerNavCategoryMenu: 1, readerNavMenu: 1, noLangToggleInHebrew: 1, compare: compare});
+  const navMenuClasses = classNames({readerNavCategoryMenu: 1, readerNavMenu: 1, noLangToggleInHebrew: false, compare: compare});
   return (
     <div className={navMenuClasses}>
       <CategoryColorLine category={categories[0]} />
